@@ -94,7 +94,7 @@ void loop() {
     }
 
       if(footPound > 1){
-      Serial.println("Work: " + String(footPound) + "ftlbs " + "Max Thrust: " + String(maxThrust) + " lbs Time: " + String(currentTime - thrustTime));
+      Serial.println("Work done, waiting to save. Change in momentum: " + String(footPound) + "lbs*s " + "Max Thrust: " + String(maxThrust) + " lbs Time: " + String(currentTime - thrustTime));
 //      footPound = 0.0;
 //      maxThrust = 0.0;
     }
